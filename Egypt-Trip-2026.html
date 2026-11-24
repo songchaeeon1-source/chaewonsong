@@ -1,0 +1,67 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>THE ITINERARY · 12.19–01.02</title><style>:root{font-family:Arial,'Malgun Gothic','Apple SD Gothic Neo',sans-serif;color:#111827;background:#fff;font-size:16px;line-height:1.5}*{box-sizing:border-box}body{margin:0}main{max-width:1500px;margin:auto;padding:28px 24px 40px}button{font:inherit;cursor:pointer}a{color:#1745a0;text-underline-offset:3px}button:focus-visible,a:focus-visible{outline:3px solid #e58a00;outline-offset:3px}header{display:flex;justify-content:space-between;align-items:center;gap:16px}h1{font-size:30px;line-height:1.2;margin:0}h2{font-size:20px;margin:0}header a{font-size:14px;white-space:nowrap}.range{margin:14px 0 22px;font-size:21px}.options{display:flex;gap:12px;margin-bottom:24px}.options button{flex:0 1 280px;min-height:78px;text-align:left;background:white;color:#111827;border:2px solid #8290a3;border-radius:3px;padding:12px 18px}.options span{display:block;font-size:15px}.options strong{display:block;font-size:19px}.options button[aria-pressed=true]{background:#173b83;border-color:#173b83;color:white}.calendar-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}.calendar-heading button{background:white;border:1px solid #8290a3;border-radius:3px;padding:7px 16px;min-height:40px;font-size:14px}.calendar-wrap{border:1px solid #8290a3;border-bottom:0}.weekdays,.calendar{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}.weekdays{background:#edf0f4;border-bottom:1px solid #8290a3}.weekdays span{text-align:center;padding:9px 0;font-size:15px;font-weight:bold}.weekdays span:first-child{color:#1745a0}.weekdays span:nth-child(2){color:#ad1b1b}.day{display:flex;flex-direction:column;align-items:stretch;gap:9px;min-width:0;min-height:195px;padding:12px 10px;text-align:left;background:white;color:#111827;border:0;border-right:1px solid #b8c1cd;border-bottom:1px solid #8290a3;border-radius:0}.day:nth-child(7n){border-right:0}.day[aria-pressed=true]{box-shadow:inset 0 0 0 3px #1745a0;background:#f3f7ff}.day:hover{background:#eef3fc}.date{font-size:23px;font-weight:bold;line-height:1.3}.date small{font-size:13px;font-weight:normal;margin-right:4px;color:#4b5563}.day:nth-child(7n+1) .date{color:#1745a0}.day:nth-child(7n+2) .date{color:#ad1b1b}.city{font-size:15px;font-weight:bold;overflow-wrap:anywhere}.events{display:flex;flex-direction:column;gap:7px}.event{font-size:14px;line-height:1.4;overflow-wrap:anywhere}.event:before{content:'· ';font-weight:bold}.day.south{background:#eef7f0}.day.south .city{color:#135d31}.day.desert{background:#fff5e6}.day.desert .city{color:#804b10}.day.siwa .city{color:#643a91}.short-city{display:none}.conflict{display:block;background:#fff0f0;color:#a21a1a;border:1px solid #e9b2b2;padding:3px 5px;font-size:13px;font-weight:bold;margin-top:auto}.selected-day{border:2px solid #173b83;padding:20px 24px;margin-top:20px}.selected-heading{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:12px}.selected-heading h2{font-size:23px}.selected-heading span{font-size:14px;color:#455263}.selected-day h3{font-size:20px;margin:0 0 12px}.selected-day ul{display:grid;grid-template-columns:1fr 1fr;gap:10px 28px;margin:0;padding-left:22px}.selected-day li{font-size:16px}.selected-day .conflict{display:inline-block;font-size:15px;margin-top:16px;padding:5px 10px}.pending{font-size:14px;color:#724600;font-weight:bold;margin:14px 0 0}.detail-links{font-size:14px;margin-top:16px}#links{margin-top:30px}#links h2{margin-bottom:12px}.links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 24px}.links a{font-size:15px;border-bottom:1px solid #d0d6df;padding:12px 0;min-height:48px}
+@media(max-width:900px){main{padding:24px 16px}.day{min-height:175px;padding:10px 7px}.event{font-size:13px}.city{font-size:14px}.date{font-size:21px}.links{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){main{padding:20px 12px 32px}h1{font-size:25px}header a{font-size:13px}.range{font-size:18px;margin:12px 0 18px}.options{gap:8px;margin-bottom:20px}.options button{flex:1;min-width:0;min-height:76px;padding:10px 12px}.options span{font-size:14px}.options strong{font-size:16px}.calendar-heading h2{font-size:18px}.calendar-heading{margin-bottom:8px}.weekdays span{font-size:14px;padding:7px 0}.day{min-height:90px;padding:8px 3px;gap:5px;text-align:center;align-items:center}.date{font-size:20px}.date small{display:block;font-size:11px;margin-right:0}.city,.events{display:none}.short-city{display:block;font-size:12px;font-weight:bold;line-height:1.35;overflow-wrap:anywhere}.day .conflict{font-size:11px;padding:1px 2px;white-space:nowrap;border:0;margin:0}.selected-day{padding:16px;margin-top:16px}.selected-heading{display:block;margin-bottom:10px}.selected-heading h2{font-size:21px;margin-bottom:4px}.selected-heading span{font-size:13px}.selected-day h3{font-size:19px}.selected-day ul{grid-template-columns:1fr;gap:10px}.selected-day li{font-size:16px}.links{gap:0 16px}.links a{font-size:14px}#links{margin-top:24px}}
+@media(max-width:350px){h1{font-size:22px}.range{font-size:16px}.options button{padding:9px}.options strong{font-size:15px}.short-city{font-size:11px}}
+@media print{main{padding:0}header a,.calendar-heading button,#links{display:none}.options button[aria-pressed=false]{display:none}.options button[aria-pressed=true]{background:white;color:black;border-color:black;min-height:0}.options{margin:12px 0}.day{min-height:145px;break-inside:avoid}.day[aria-pressed=true]{box-shadow:none}.selected-day{display:none}.event{font-size:12px}}
+</style></head><body><main>
+<header><h1>THE ITINERARY</h1><a href="https://docs.google.com/spreadsheets/d/1-rDtzaqPk70d7GTyQOSKQV5S_wUtfByZ/edit" target="_blank" rel="noopener">원본 시트</a></header>
+<h2 class="range">2026.12.19 — 2027.01.02</h2>
+<div class="options" role="group" aria-label="전체 일정 선택"><button type="button" data-option="1" aria-pressed="true"><span>Option 1</span><strong>남부 12.22–25</strong></button><button type="button" data-option="2" aria-pressed="false"><span>Option 2</span><strong>남부 12.25–28</strong></button></div>
+<div class="calendar-heading"><h2>전체 일정</h2><button id="print" type="button">인쇄</button></div>
+<div class="calendar-wrap"><div class="weekdays" aria-hidden="true"><span>토</span><span>일</span><span>월</span><span>화</span><span>수</span><span>목</span><span>금</span></div><div id="calendar" class="calendar" aria-label="12월 19일부터 1월 2일까지"></div></div>
+<section id="selected-day" class="selected-day" aria-live="polite" aria-label="선택한 날짜 일정"></section>
+<section id="links"><h2>여행 링크</h2><div class="links"><a href="https://www.airbnb.co.kr/experiences/460971" target="_blank" rel="noopener">카이로 쿠킹 클래스</a><a href="https://www.getyourguide.com/ko-kr/explorer/cairo-ttd92/christmas-in-cairo/" target="_blank" rel="noopener">카이로 크리스마스</a><a href="https://delaapp.com/makeup/" target="_blank" rel="noopener">메이크업 살롱</a><a href="https://istanbulepass.com/ko/iseutanbul-eseo-saehae-jeonya" target="_blank" rel="noopener">이스탄불 카운트다운</a><a href="https://www.airbnb.co.kr/experiences/5688363" target="_blank" rel="noopener">향수 만들기</a><a href="https://www.airbnb.co.kr/experiences/6498145" target="_blank" rel="noopener">데르비시 의식</a></div></section>
+</main><script>const base={
+'2026-12-19':{city:'인천 · 이스탄불',short:'출국',title:'인천 출발 · 이스탄불 경유',events:['10:40 ICN 출발','16:40 IST 도착','저녁 · 호텔 체크인'],status:'시트 기재'},
+'2026-12-20':{city:'카이로',short:'카이로',title:'카이로 도착',events:['07:55 IST 출발 · 09:20 CAI 도착','점심 · 카이로 성채 · 시장','피라미드뷰 카페','저녁 양고기 · 나일강 산책'],status:'원안'},
+'2026-12-21':{city:'기자',short:'기자',title:'기자 피라미드',events:['기자 피라미드'],map:'Giza Pyramids',status:'원안'},
+'2026-12-26':{city:'카이로',short:'카이로',title:'카이로',events:['자유 일정'],status:'원안'},
+'2026-12-29':{city:'카이로',short:'카이로',title:'카이로',events:['자유 일정'],status:'원안'},
+'2026-12-30':{city:'시와',short:'시와',type:'siwa',title:'시와 당일치기',events:['시와 당일치기'],pending:'투어 · 이동편 미정',status:'원안'},
+'2026-12-31':{city:'카이로 · 이스탄불',short:'이스탄불',title:'카이로 출국 · 새해맞이',events:['점심','12:30 CAI 공항 도착','15:30 CAI 출발 · 19:05 IST 도착','새해 카운트다운'],status:'시트 기재'},
+'2027-01-01':{city:'이스탄불',short:'이스탄불',title:'이스탄불 · 인천행 탑승',events:['식사 · 낮잠 · 카페 · 쇼핑','15:00 IST 공항 도착','17:05 IST 출발'],status:'시트 기재'},
+'2027-01-02':{city:'인천',short:'귀국',title:'인천 도착',events:['08:55 ICN 도착'],status:'시트 기재'}
+};
+const south=[
+{city:'룩소르',short:'룩소르',title:'룩소르',events:['카이로 → 룩소르','카르나크 · 룩소르 신전'],map:'Karnak Temple'},
+{city:'룩소르 · 아스완',short:'룩소르',title:'룩소르 서안 · 아스완 이동',events:['왕가의 계곡 · 하트셉수트 신전','룩소르 → 아스완'],map:'Valley of the Kings'},
+{city:'아스완',short:'아스완',title:'아스완',events:['필레 신전','펠루카 · 누비안 마을 후보'],map:'Philae Temple'},
+{city:'아부심벨',short:'아부심벨',title:'아부심벨 · 카이로 복귀',events:['아스완 ↔ 아부심벨','아스완 → 카이로'],map:'Abu Simbel Temples'}
+];
+const calendarDates=Array.from({length:15},(_,i)=>new Date(Date.UTC(2026,11,19+i)).toISOString().slice(0,10));
+let activeOption=1,selectedDate='2026-12-19';
+function itinerary(option){
+const days=structuredClone(base),start=option===1?22:25;
+south.forEach((day,i)=>{days['2026-12-'+(start+i)]={...day,type:'south',status:'남부 날짜 원안 · 관광 순서 제안',pending:'국내 이동편 미정'};});
+if(option===1){
+days['2026-12-27']={city:'바하리야',short:'사막',type:'desert',title:'바하리야 사막투어',events:['바하리야 사막투어','흑사막 · 백사막 · 캠핑 후보'],status:'원안 · 세부 일정 제안'};
+days['2026-12-28']={city:'사막 · 카이로',short:'사막',type:'desert',title:'사막 · 카이로 복귀',events:['백사막 일출','카이로 복귀'],status:'1박 2일 구성 제안'};
+}else{
+days['2026-12-22']={city:'바하리야',short:'사막',type:'desert',title:'바하리야 사막투어',events:['바하리야 사막투어','흑사막 · 백사막 · 캠핑 후보'],status:'날짜 변경 · 세부 일정 제안'};
+days['2026-12-23']={city:'사막 · 카이로',short:'사막',type:'desert',title:'사막 · 카이로 복귀',events:['백사막 일출','카이로 복귀'],status:'1박 2일 구성'};
+days['2026-12-24']={city:'카이로',short:'카이로',title:'카이로',events:['자유 일정'],status:'미정'};
+}
+return calendarDates.map(date=>({date,...days[date]}));
+}
+function el(tag,className,text){const node=document.createElement(tag);if(className)node.className=className;if(text!==undefined)node.textContent=text;return node;}
+function shortDate(date){return date.slice(5,7)+'.'+date.slice(8,10);}
+function weekday(date){return new Intl.DateTimeFormat('ko',{weekday:'short',timeZone:'UTC'}).format(new Date(date+'T00:00:00Z'));}
+function renderDetail(day){
+const detail=document.getElementById('selected-day');detail.replaceChildren();const heading=el('div','selected-heading');heading.append(el('h2','',shortDate(day.date)+' '+weekday(day.date)),el('span','',day.status));detail.append(heading,el('h3','',day.title));
+const list=el('ul');day.events.forEach(event=>list.append(el('li','',event)));detail.append(list);
+if(day.conflict)detail.append(el('div','conflict',day.conflict));if(day.pending)detail.append(el('p','pending',day.pending));
+if(day.map){const links=el('div','detail-links'),map=el('a','','지도');map.href='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(day.map);map.target='_blank';map.rel='noopener';links.append(map);detail.append(links);}
+}
+function render(){
+document.querySelectorAll('[data-option]').forEach(button=>button.setAttribute('aria-pressed',String(Number(button.dataset.option)===activeOption)));
+const days=itinerary(activeOption),grid=document.getElementById('calendar');grid.replaceChildren();
+days.forEach(day=>{
+const cell=el('button','day '+(day.type||'cairo'));cell.type='button';cell.dataset.date=day.date;cell.setAttribute('aria-pressed',String(day.date===selectedDate));cell.setAttribute('aria-controls','selected-day');cell.setAttribute('aria-label',shortDate(day.date)+' '+weekday(day.date)+' · '+day.title+(day.conflict?' · '+day.conflict:''));
+const date=el('span','date');if(day.date.startsWith('2027'))date.append(el('small','','1월'));date.append(el('span','',day.date.slice(8,10)));cell.append(date,el('span','city',day.city),el('span','short-city',day.short));
+const events=el('span','events');day.events.forEach(event=>events.append(el('span','event',event)));cell.append(events);if(day.conflict)cell.append(el('span','conflict','일정 겹침'));
+cell.addEventListener('click',()=>{selectedDate=day.date;render();const current=document.querySelector('[data-date="'+selectedDate+'"]');if(current)current.focus({preventScroll:true});});grid.append(cell);
+});renderDetail(days.find(day=>day.date===selectedDate));
+}
+document.querySelectorAll('[data-option]').forEach(button=>button.addEventListener('click',()=>{activeOption=Number(button.dataset.option);render();}));
+document.getElementById('print').addEventListener('click',()=>window.print());render();
+</script></body></html>
